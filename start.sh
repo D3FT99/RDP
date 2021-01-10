@@ -1,7 +1,7 @@
 #! /bin/bash
 printf "Installing RDP Be Patience... " >&2
 {
-sudo useradd -m ALOK
+sudo useradd -m D3FT99
 sudo adduser D3FT99 sudo
 echo 'D3FT99:8426' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
